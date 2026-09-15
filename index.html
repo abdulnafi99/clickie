@@ -49,128 +49,26 @@
         .btn-install-pwa { display: none; align-items: center; gap: 6px; background: var(--accent-gold); color: #fff; border: none; padding: 6px 14px; border-radius: var(--radius-full); font-size: 0.8rem; font-weight: 600; cursor: pointer; box-shadow: 0 4px 12px rgba(197,160,89,0.3); transition: var(--transition); }
         .btn-install-pwa:hover { background: var(--accent-gold-hover); }
 
-        /* ===== HEADER AUTH AREA ===== */
         #header-auth-area { display: flex; align-items: center; gap: 8px; }
 
-        .btn-header-login {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            padding: 8px 16px;
-            background: var(--bg-dark);
-            color: #fff;
-            border: none;
-            border-radius: var(--radius-full);
-            font-size: 0.82rem;
-            font-weight: 700;
-            cursor: pointer;
-            transition: var(--transition);
-            white-space: nowrap;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
+        .btn-header-login { display: flex; align-items: center; gap: 6px; padding: 8px 16px; background: var(--bg-dark); color: #fff; border: none; border-radius: var(--radius-full); font-size: 0.82rem; font-weight: 700; cursor: pointer; transition: var(--transition); white-space: nowrap; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
         .btn-header-login:hover { background: #2A2A2A; transform: translateY(-1px); }
         .btn-header-login i { font-size: 0.85rem; }
 
-        .btn-header-register {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            padding: 8px 14px;
-            background: var(--accent-gold);
-            color: #fff;
-            border: none;
-            border-radius: var(--radius-full);
-            font-size: 0.82rem;
-            font-weight: 700;
-            cursor: pointer;
-            transition: var(--transition);
-            white-space: nowrap;
-            box-shadow: 0 4px 12px rgba(197,160,89,0.35);
-        }
+        .btn-header-register { display: flex; align-items: center; gap: 6px; padding: 8px 14px; background: var(--accent-gold); color: #fff; border: none; border-radius: var(--radius-full); font-size: 0.82rem; font-weight: 700; cursor: pointer; transition: var(--transition); white-space: nowrap; box-shadow: 0 4px 12px rgba(197,160,89,0.35); }
         .btn-header-register:hover { background: var(--accent-gold-hover); transform: translateY(-1px); }
 
-        .header-user-chip {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            padding: 4px 12px 4px 4px;
-            background: var(--bg-primary);
-            border: 1.5px solid var(--border-color);
-            border-radius: var(--radius-full);
-            cursor: pointer;
-            transition: var(--transition);
-            max-width: 200px;
-            min-width: 0;
-        }
-        .header-user-chip:hover {
-            border-color: var(--accent-gold);
-            background: var(--accent-gold-light);
-            box-shadow: 0 2px 8px rgba(197,160,89,0.15);
-        }
-        .header-user-chip.admin {
-            border-color: var(--accent-gold);
-            background: var(--accent-gold-light);
-        }
-        .header-user-avatar {
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            background: var(--bg-dark);
-            color: var(--accent-gold);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 800;
-            font-size: 0.8rem;
-            flex-shrink: 0;
-        }
-        .header-user-chip.admin .header-user-avatar {
-            background: var(--accent-gold);
-            color: #fff;
-        }
-        .header-user-info {
-            display: flex;
-            flex-direction: column;
-            line-height: 1.1;
-            min-width: 0;
-            overflow: hidden;
-        }
-        .header-user-name {
-            font-size: 0.8rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-        .header-user-role {
-            font-size: 0.6rem;
-            font-weight: 700;
-            color: var(--accent-gold);
-            letter-spacing: 0.5px;
-            text-transform: uppercase;
-        }
+        .header-user-chip { display: flex; align-items: center; gap: 8px; padding: 4px 12px 4px 4px; background: var(--bg-primary); border: 1.5px solid var(--border-color); border-radius: var(--radius-full); cursor: pointer; transition: var(--transition); max-width: 200px; min-width: 0; }
+        .header-user-chip:hover { border-color: var(--accent-gold); background: var(--accent-gold-light); box-shadow: 0 2px 8px rgba(197,160,89,0.15); }
+        .header-user-chip.admin { border-color: var(--accent-gold); background: var(--accent-gold-light); }
+        .header-user-avatar { width: 30px; height: 30px; border-radius: 50%; background: var(--bg-dark); color: var(--accent-gold); display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.8rem; flex-shrink: 0; }
+        .header-user-chip.admin .header-user-avatar { background: var(--accent-gold); color: #fff; }
+        .header-user-info { display: flex; flex-direction: column; line-height: 1.1; min-width: 0; overflow: hidden; }
+        .header-user-name { font-size: 0.8rem; font-weight: 700; color: var(--text-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .header-user-role { font-size: 0.6rem; font-weight: 700; color: var(--accent-gold); letter-spacing: 0.5px; text-transform: uppercase; }
 
-        .btn-header-logout {
-            width: 36px;
-            height: 36px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: transparent;
-            border: 1.5px solid var(--border-color);
-            color: var(--status-danger);
-            border-radius: 50%;
-            cursor: pointer;
-            transition: var(--transition);
-            font-size: 0.85rem;
-            flex-shrink: 0;
-        }
-        .btn-header-logout:hover {
-            background: #FEE2E2;
-            border-color: var(--status-danger);
-            transform: translateY(-1px);
-        }
+        .btn-header-logout { width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; background: transparent; border: 1.5px solid var(--border-color); color: var(--status-danger); border-radius: 50%; cursor: pointer; transition: var(--transition); font-size: 0.85rem; flex-shrink: 0; }
+        .btn-header-logout:hover { background: #FEE2E2; border-color: var(--status-danger); transform: translateY(-1px); }
 
         @media (max-width: 640px) {
             .btn-header-register { display: none; }
@@ -316,6 +214,18 @@
 
         .sig-display { background: #fff; border: 1px solid var(--border-light); border-radius: var(--radius-sm); padding: 4px; max-width: 220px; }
         .sig-display img { width: 100%; height: auto; display: block; }
+
+        /* ===== RECEIPT UPLOAD ===== */
+        .receipt-upload-label { display: block; cursor: pointer; border: 2px dashed var(--border-color); border-radius: var(--radius-md); padding: 28px 16px; text-align: center; background: var(--bg-primary); transition: var(--transition); }
+        .receipt-upload-label:hover { border-color: var(--accent-gold); background: var(--accent-gold-light); }
+        .receipt-preview-card { position: relative; border: 1.5px solid var(--accent-gold); border-radius: var(--radius-md); overflow: hidden; background: #fff; box-shadow: 0 4px 12px rgba(197,160,89,0.15); }
+        .receipt-preview-card img { width: 100%; max-height: 320px; object-fit: contain; display: block; background: #f5f5f5; }
+        .receipt-remove-btn { position: absolute; top: 8px; right: 8px; width: 32px; height: 32px; border-radius: 50%; background: var(--status-danger); color: #fff; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(0,0,0,0.25); font-size: 0.85rem; }
+        .receipt-remove-btn:hover { background: #b91c1c; }
+        .receipt-verified-badge { position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.75), transparent); padding: 12px 14px; color: #fff; font-size: 0.75rem; font-weight: 700; display: flex; align-items: center; gap: 6px; }
+        .receipt-confirm-label { display: flex; align-items: flex-start; gap: 10px; cursor: pointer; margin-top: 16px; padding: 12px; background: var(--bg-primary); border-radius: var(--radius-sm); border: 1.5px solid var(--border-light); transition: var(--transition); }
+        .receipt-confirm-label:hover { border-color: var(--accent-gold); background: var(--accent-gold-light); }
+        .receipt-confirm-label.checked { border-color: var(--accent-gold); background: var(--accent-gold-light); }
     </style>
 </head>
 <body>
@@ -336,7 +246,6 @@
             <button id="pwa-install-btn" class="btn-install-pwa" onclick="installPWA()">
                 <i class="fa-solid fa-download"></i> Install App
             </button>
-            <!-- ===== AUTH AREA (dinamik) ===== -->
             <div id="header-auth-area"></div>
         </div>
     </header>
@@ -481,6 +390,7 @@ let cameras = DEFAULT_CAMERAS, promotions = DEFAULT_PROMOTIONS, reviews = DEFAUL
 let settings = DEFAULT_SETTINGS, users = DEFAULT_USERS, bookings = DEFAULT_BOOKINGS;
 
 let signaturePads = {};
+let bookingReceiptBase64 = null;   // resit pembayaran (base64)
 
 function setLoading(show) { const el = document.getElementById("app-loading"); if (el) el.style.display = show ? "flex" : "none"; }
 
@@ -531,7 +441,6 @@ window.addEventListener("DOMContentLoaded", async () => {
         try { const parsed = JSON.parse(savedUser); appState.currentUser = users.find(u => u.id === parsed.id) || parsed; }
         catch (e) { appState.currentUser = null; }
     }
-    // Demo lalai — login automatik sebagai customer demo
     if (!appState.currentUser) appState.currentUser = users.find(u => u.role === "customer") || users[1] || null;
 
     fbReady = true;
@@ -570,14 +479,13 @@ function showToast(message) {
 }
 
 // ============================================================
-// ============  HEADER AUTH BUTTONS  =========================
+// ============  HEADER AUTH  =================================
 // ============================================================
 function renderHeaderAuth() {
     const area = document.getElementById("header-auth-area");
     if (!area) return;
 
     if (!appState.currentUser) {
-        // ========== NOT LOGGED IN ==========
         area.innerHTML = `
             <button class="btn-header-register" onclick="switchView('register')">
                 <i class="fa-solid fa-user-plus"></i> Daftar
@@ -587,15 +495,12 @@ function renderHeaderAuth() {
             </button>
         `;
     } else {
-        // ========== LOGGED IN ==========
         const u = appState.currentUser;
         const initial = (u.name || 'U').charAt(0).toUpperCase();
         const firstName = (u.name || 'User').split(' ')[0];
         const isAdmin = u.role === 'admin';
         const roleLabel = isAdmin ? 'Admin' : 'Pelanggan';
-        const chipAction = isAdmin
-            ? `switchView('admin', 'dashboard')`
-            : `switchView('profile')`;
+        const chipAction = isAdmin ? `switchView('admin', 'dashboard')` : `switchView('profile')`;
 
         area.innerHTML = `
             <div class="header-user-chip ${isAdmin ? 'admin' : ''}" onclick="${chipAction}" title="Buka ${isAdmin ? 'Admin Dashboard' : 'Profil'}">
@@ -625,12 +530,8 @@ function confirmLogout() {
                 Anda akan keluar dari akaun <strong>${appState.currentUser?.name || ''}</strong>. Sesi anda akan tamat.
             </p>
             <div style="display: flex; gap: 10px;">
-                <button class="btn btn-outline" style="flex: 1;" onclick="closeModal()">
-                    <i class="fa-solid fa-xmark"></i> Batal
-                </button>
-                <button class="btn btn-danger" style="flex: 1;" onclick="logoutUser()">
-                    <i class="fa-solid fa-right-from-bracket"></i> Ya, Log Keluar
-                </button>
+                <button class="btn btn-outline" style="flex: 1;" onclick="closeModal()"><i class="fa-solid fa-xmark"></i> Batal</button>
+                <button class="btn btn-danger" style="flex: 1;" onclick="logoutUser()"><i class="fa-solid fa-right-from-bracket"></i> Ya, Log Keluar</button>
             </div>
         </div>
     `;
@@ -638,7 +539,7 @@ function confirmLogout() {
 }
 
 // ============================================================
-// ============  SIGNATURE PAD FUNCTIONS  =====================
+// ============  SIGNATURE PADS  ==============================
 // ============================================================
 function setupSignaturePads() {
     setupSignatureCanvas("sig-renter");
@@ -731,6 +632,125 @@ function getSignatureData(canvasId) {
 }
 
 // ============================================================
+// ============  RECEIPT UPLOAD  ==============================
+// ============================================================
+function handleReceiptUpload(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    if (!file.type.startsWith('image/')) {
+        showToast("Sila pilih fail gambar (PNG / JPG / JPEG).");
+        event.target.value = "";
+        return;
+    }
+
+    const MAX_SIZE = 5 * 1024 * 1024; // 5MB
+    if (file.size > MAX_SIZE) {
+        showToast("Fail terlalu besar. Maksimum 5MB.");
+        event.target.value = "";
+        return;
+    }
+
+    const reader = new FileReader();
+    reader.onload = function(e) {
+        const img = new Image();
+        img.onload = function() {
+            // Compress: max dimension 1200px, JPEG 75%
+            const MAX_DIM = 1200;
+            let w = img.width, h = img.height;
+            if (w > MAX_DIM || h > MAX_DIM) {
+                if (w > h) { h = Math.round(h * MAX_DIM / w); w = MAX_DIM; }
+                else { w = Math.round(w * MAX_DIM / h); h = MAX_DIM; }
+            }
+            const canvas = document.createElement('canvas');
+            canvas.width = w;
+            canvas.height = h;
+            const ctx = canvas.getContext('2d');
+            ctx.fillStyle = '#FFFFFF';
+            ctx.fillRect(0, 0, w, h);
+            ctx.drawImage(img, 0, 0, w, h);
+
+            const compressed = canvas.toDataURL('image/jpeg', 0.75);
+            bookingReceiptBase64 = compressed;
+
+            // Update UI
+            const previewWrap = document.getElementById('receipt-preview-wrap');
+            const uploadArea = document.getElementById('receipt-upload-area');
+            const previewImg = document.getElementById('receipt-preview-img');
+            const sizeInfo = document.getElementById('receipt-size-info');
+
+            if (previewImg) previewImg.src = compressed;
+            if (previewWrap) previewWrap.style.display = 'block';
+            if (uploadArea) uploadArea.style.display = 'none';
+            if (sizeInfo) {
+                const kb = Math.round(compressed.length * 0.75 / 1024);
+                sizeInfo.textContent = kb >= 1024 ? (kb/1024).toFixed(1) + ' MB' : kb + ' KB';
+            }
+
+            showToast("Resit berjaya dimuat naik!");
+            validateBookingFormState();
+        };
+        img.onerror = function() {
+            showToast("Fail gambar tidak sah.");
+            event.target.value = "";
+        };
+        img.src = e.target.result;
+    };
+    reader.readAsDataURL(file);
+}
+
+function removeReceipt() {
+    bookingReceiptBase64 = null;
+    const previewWrap = document.getElementById('receipt-preview-wrap');
+    const uploadArea = document.getElementById('receipt-upload-area');
+    const previewImg = document.getElementById('receipt-preview-img');
+    const fileInput = document.getElementById('receipt-file-input');
+
+    if (previewWrap) previewWrap.style.display = 'none';
+    if (uploadArea) uploadArea.style.display = 'block';
+    if (previewImg) previewImg.src = '';
+    if (fileInput) fileInput.value = '';
+
+    showToast("Resit dibuang.");
+    validateBookingFormState();
+}
+
+function openReceiptLightbox() {
+    if (!bookingReceiptBase64) return;
+    const modal = document.getElementById("global-modal");
+    const modalContent = document.getElementById("global-modal-content");
+    modalContent.innerHTML = `
+        <div class="modal-header">
+            <h3 class="modal-title"><i class="fa-solid fa-receipt" style="color: var(--accent-gold);"></i> Resit Pembayaran</h3>
+            <button class="modal-close" onclick="closeModal()"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div style="background: #f5f5f5; border-radius: var(--radius-sm); padding: 8px; text-align: center;">
+            <img src="${bookingReceiptBase64}" style="max-width: 100%; height: auto; border-radius: 6px;" alt="Resit">
+        </div>
+        <button class="btn btn-primary btn-full" style="margin-top: 16px;" onclick="closeModal()">Tutup</button>
+    `;
+    modal.classList.add("active");
+}
+
+function showStoredReceiptLightbox(bookingId) {
+    const b = bookings.find(x => x.id === bookingId);
+    if (!b || !b.paymentReceipt) return;
+    const modal = document.getElementById("global-modal");
+    const modalContent = document.getElementById("global-modal-content");
+    modalContent.innerHTML = `
+        <div class="modal-header">
+            <h3 class="modal-title"><i class="fa-solid fa-receipt" style="color: var(--accent-gold);"></i> Resit — ${b.id}</h3>
+            <button class="modal-close" onclick="closeModal()"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div style="background: #f5f5f5; border-radius: var(--radius-sm); padding: 8px; text-align: center;">
+            <img src="${b.paymentReceipt}" style="max-width: 100%; height: auto; border-radius: 6px;" alt="Resit">
+        </div>
+        <button class="btn btn-primary btn-full" style="margin-top: 16px;" onclick="closeModal()">Tutup</button>
+    `;
+    modal.classList.add("active");
+}
+
+// ============================================================
 // ============  ROUTER  ======================================
 // ============================================================
 function switchView(viewName, param = null) {
@@ -752,8 +772,18 @@ function switchView(viewName, param = null) {
         case "cameras": mainView.innerHTML = renderCamerasView(); break;
         case "camera-detail": mainView.innerHTML = renderCameraDetailView(param); break;
         case "booking-flow":
+            bookingReceiptBase64 = null;   // reset resit setiap kali masuk
             mainView.innerHTML = renderBookingFlowView(param);
             setTimeout(setupSignaturePads, 60);
+            setTimeout(() => {
+                // Sediakan listener untuk checkbox pengesahan bayaran
+                const rc = document.getElementById('receipt-confirm-check');
+                if (rc) rc.addEventListener('change', () => {
+                    const lbl = rc.closest('.receipt-confirm-label');
+                    if (lbl) lbl.classList.toggle('checked', rc.checked);
+                });
+                updatePaymentUI();
+            }, 80);
             break;
         case "my-bookings": mainView.innerHTML = renderMyBookingsView(); break;
         case "reviews": mainView.innerHTML = renderReviewsView(); break;
@@ -975,6 +1005,7 @@ function renderBookingFlowView(cameraId) {
             </div>
         </div>
 
+        <!-- 1. SCHEDULE -->
         <div class="card">
             <h3 style="font-size: 1rem; font-weight: 800; margin-bottom: 14px;"><i class="fa-regular fa-calendar-days"></i> 1. Select Rental Schedule</h3>
             <div class="form-row">
@@ -988,12 +1019,14 @@ function renderBookingFlowView(cameraId) {
             <div id="availability-status-box" style="display: none; padding: 12px; border-radius: var(--radius-sm); font-size: 0.85rem; margin-top: 10px;"></div>
         </div>
 
+        <!-- 2. LOCATIONS -->
         <div class="card">
             <h3 style="font-size: 1rem; font-weight: 800; margin-bottom: 14px;"><i class="fa-solid fa-location-dot"></i> 2. Pickup & Return Locations</h3>
             <div class="form-group"><label class="form-label">Pickup Location</label><input type="text" id="book-pickup-loc" class="form-control" value="Kamunting Town Center"></div>
             <div class="form-group"><label class="form-label">Return Location</label><input type="text" id="book-return-loc" class="form-control" value="Kamunting Town Center"></div>
         </div>
 
+        <!-- 3. PAYMENT METHOD -->
         <div class="card">
             <h3 style="font-size: 1rem; font-weight: 800; margin-bottom: 14px;"><i class="fa-solid fa-wallet"></i> 3. Payment Method</h3>
             <div style="display: flex; flex-direction: column; gap: 10px;">
@@ -1018,8 +1051,54 @@ function renderBookingFlowView(cameraId) {
             </div>
         </div>
 
+        <!-- 4. RECEIPT UPLOAD (dinamik — hanya bila E-Wallet) -->
+        <div class="card" id="receipt-section" style="display: none;">
+            <h3 style="font-size: 1rem; font-weight: 800; margin-bottom: 14px;"><i class="fa-solid fa-receipt"></i> 4. Resit Pembayaran</h3>
+
+            <div style="background: var(--accent-gold-light); border: 1px solid rgba(197,160,89,0.25); border-radius: var(--radius-sm); padding: 10px 14px; margin-bottom: 14px; font-size: 0.78rem; color: #7A5F2E;">
+                <i class="fa-solid fa-circle-info"></i>
+                Sila muat naik <strong>gambar / screenshot resit pembayaran</strong> sebagai bukti pemindahan. Resit akan disemak oleh pihak CLICKIE.
+            </div>
+
+            <!-- Upload Area -->
+            <div id="receipt-upload-area">
+                <input type="file" id="receipt-file-input" accept="image/*" style="display: none;" onchange="handleReceiptUpload(event)">
+                <label for="receipt-file-input" class="receipt-upload-label">
+                    <i class="fa-solid fa-cloud-arrow-up" style="font-size: 2rem; color: var(--accent-gold); margin-bottom: 8px; display: block;"></i>
+                    <div style="font-size: 0.9rem; font-weight: 700; color: var(--text-primary);">Ketik untuk muat naik resit</div>
+                    <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 4px;">PNG, JPG atau JPEG (Maks 5MB)</div>
+                </label>
+            </div>
+
+            <!-- Preview -->
+            <div id="receipt-preview-wrap" style="display: none; margin-top: 4px;">
+                <div class="receipt-preview-card">
+                    <img id="receipt-preview-img" src="" alt="Resit">
+                    <button type="button" class="receipt-remove-btn" onclick="removeReceipt()" title="Buang resit">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    <div class="receipt-verified-badge">
+                        <i class="fa-solid fa-circle-check" style="color: #4ADE80;"></i>
+                        Resit dimuat naik — <span id="receipt-size-info">—</span>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-outline btn-sm btn-full" style="margin-top: 10px;" onclick="openReceiptLightbox()">
+                    <i class="fa-solid fa-expand"></i> Lihat Resit Penuh
+                </button>
+            </div>
+
+            <!-- Payment Confirmation Checkbox -->
+            <label class="receipt-confirm-label" id="receipt-confirm-label">
+                <input type="checkbox" id="receipt-confirm-check" style="margin-top: 3px;" onchange="validateBookingFormState()">
+                <span style="font-size: 0.82rem; font-weight: 600; line-height: 1.4;">
+                    Saya mengesahkan bahawa pembayaran <strong>RM <span id="receipt-amount">0</span></strong> telah dibuat dan resit yang dilampirkan adalah <strong>sahih</strong>.
+                </span>
+            </label>
+        </div>
+
+        <!-- 5. T&C -->
         <div class="card">
-            <h3 style="font-size: 1rem; font-weight: 800; margin-bottom: 10px;"><i class="fa-solid fa-file-contract"></i> 4. Terms & Conditions</h3>
+            <h3 style="font-size: 1rem; font-weight: 800; margin-bottom: 10px;"><i class="fa-solid fa-file-contract"></i> 5. Terms & Conditions</h3>
             <div class="tnc-preview" onclick="showTnCModal()">
 ${settings.terms}
                 <div class="tnc-preview-fade"><i class="fa-solid fa-up-right-and-down-left-from-center"></i> KETIK UNTUK BACA PENUH</div>
@@ -1033,8 +1112,9 @@ ${settings.terms}
             </label>
         </div>
 
+        <!-- 6. PENGESAHAN PENYEWA -->
         <div class="card">
-            <h3 style="font-size: 1rem; font-weight: 800; margin-bottom: 14px;"><i class="fa-solid fa-id-card"></i> 5. Pengesahan Penyewa</h3>
+            <h3 style="font-size: 1rem; font-weight: 800; margin-bottom: 14px;"><i class="fa-solid fa-id-card"></i> 6. Pengesahan Penyewa</h3>
             <div class="confirm-form-header">
                 <h4>PENGESAHAN PENYEWA</h4>
                 <p>Dengan membuat tempahan, penyewa mengakui telah membaca, memahami dan bersetuju dengan semua terma dan syarat di atas.</p>
@@ -1072,6 +1152,7 @@ ${settings.terms}
             </div>
         </div>
 
+        <!-- BOOKING SUMMARY -->
         <div class="card card-dark">
             <h3 style="font-size: 1rem; font-weight: 800; margin-bottom: 12px; color: var(--accent-gold);">BOOKING SUMMARY</h3>
             <div style="display: flex; justify-content: space-between; font-size: 0.85rem; margin-bottom: 6px;"><span>Daily Rate:</span> <span>RM ${cam.pricePerDay}</span></div>
@@ -1139,8 +1220,28 @@ function acceptTnCFromModal() {
 
 function updatePaymentUI() {
     const selectedPay = document.querySelector('input[name="payment-method"]:checked')?.value;
-    const box = document.getElementById('ewallet-info-box');
-    if (box) box.style.display = (selectedPay === 'E-Wallet') ? 'block' : 'none';
+    const ewalletBox = document.getElementById('ewallet-info-box');
+    const receiptSection = document.getElementById('receipt-section');
+
+    if (ewalletBox) ewalletBox.style.display = (selectedPay === 'E-Wallet') ? 'block' : 'none';
+
+    if (receiptSection) {
+        if (selectedPay === 'E-Wallet') {
+            receiptSection.style.display = 'block';
+        } else {
+            receiptSection.style.display = 'none';
+            // Reset resit & pengesahan bila tukar ke COD
+            if (bookingReceiptBase64) removeReceipt();
+            const rc = document.getElementById('receipt-confirm-check');
+            if (rc) {
+                rc.checked = false;
+                const lbl = rc.closest('.receipt-confirm-label');
+                if (lbl) lbl.classList.remove('checked');
+            }
+        }
+    }
+
+    validateBookingFormState();
 }
 
 function triggerAvailabilityCheck() {
@@ -1174,6 +1275,10 @@ function triggerAvailabilityCheck() {
     document.getElementById("summary-total").innerText = `RM ${grandTotal}`;
 
     updateConfirmReadonlyBox(startDate, endDate, days, grandTotal);
+
+    // Kemas kini jumlah di dalam pengesahan resit
+    const receiptAmount = document.getElementById("receipt-amount");
+    if (receiptAmount) receiptAmount.textContent = grandTotal;
 
     if (statusBox) {
         statusBox.style.display = "block";
@@ -1210,6 +1315,7 @@ function validateBookingFormState() {
     const pickupLoc = document.getElementById("book-pickup-loc")?.value?.trim();
     const returnLoc = document.getElementById("book-return-loc")?.value?.trim();
     const tncAccepted = document.getElementById("book-tnc-checkbox")?.checked;
+    const paymentMethod = document.querySelector('input[name="payment-method"]:checked')?.value;
     const btn = document.getElementById("btn-submit-booking");
 
     const confirmName = document.getElementById("confirm-name")?.value?.trim();
@@ -1226,7 +1332,15 @@ function validateBookingFormState() {
     const tncValid = tncAccepted;
     const confirmValid = confirmName && confirmIC && confirmPhone && confirmAddress && renterDate && hasSignature;
 
-    btn.disabled = !(bookingValid && tncValid && confirmValid);
+    // Validasi resit & pengesahan bayaran (hanya bila E-Wallet)
+    let receiptValid = true;
+    let receiptConfirmed = true;
+    if (paymentMethod === "E-Wallet") {
+        receiptValid = !!bookingReceiptBase64;
+        receiptConfirmed = document.getElementById("receipt-confirm-check")?.checked === true;
+    }
+
+    btn.disabled = !(bookingValid && tncValid && confirmValid && receiptValid && receiptConfirmed);
 
     const hint = document.getElementById("submit-hint");
     if (hint) {
@@ -1235,6 +1349,8 @@ function validateBookingFormState() {
             if (!startDate || !endDate) missing.push("tarikh");
             if (!check.available) missing.push("ketersediaan");
             if (!tncValid) missing.push("T&C");
+            if (paymentMethod === "E-Wallet" && !receiptValid) missing.push("resit");
+            if (paymentMethod === "E-Wallet" && !receiptConfirmed) missing.push("pengesahan bayaran");
             if (!confirmName) missing.push("nama");
             if (!confirmIC) missing.push("IC");
             if (!confirmPhone) missing.push("telefon");
@@ -1300,13 +1416,18 @@ function processBookingCheckout() {
         paymentStatus: paymentMethod === "E-Wallet" ? "Pending" : "Verified",
         status: "Pending",
         createdAt: new Date().toISOString().split('T')[0],
-        confirmation: confirmationData
+        confirmation: confirmationData,
+        // ==== RESIT PEMBAYARAN ====
+        paymentReceipt: paymentMethod === "E-Wallet" ? bookingReceiptBase64 : null,
+        paymentConfirmed: paymentMethod === "E-Wallet" ? true : false,
+        paymentConfirmedAt: paymentMethod === "E-Wallet" ? new Date().toISOString() : null
     };
 
     bookings.unshift(newBooking);
     dbSet("bookings", bookings);
     showToast("Booking submitted successfully!");
 
+    const hasReceipt = !!newBooking.paymentReceipt;
     const modal = document.getElementById("global-modal");
     const modalContent = document.getElementById("global-modal-content");
     modalContent.innerHTML = `
@@ -1318,8 +1439,9 @@ function processBookingCheckout() {
                 <div><strong>Camera:</strong> ${newBooking.cameraName}</div>
                 <div><strong>Date:</strong> ${newBooking.startDate} to ${newBooking.endDate}</div>
                 <div><strong>Total:</strong> RM ${newBooking.totalPrice}</div>
-                <div style="margin-top:8px; padding-top:8px; border-top: 1px dashed var(--border-color); font-size: 0.75rem; color: var(--text-secondary);">
-                    <i class="fa-solid fa-file-signature" style="color: var(--accent-gold);"></i> Pengesahan penyewa telah direkodkan.
+                <div style="margin-top:8px; padding-top:8px; border-top: 1px dashed var(--border-color); font-size: 0.75rem; color: var(--text-secondary); display:flex; flex-direction:column; gap:4px;">
+                    <div><i class="fa-solid fa-file-signature" style="color: var(--accent-gold);"></i> Pengesahan penyewa direkodkan</div>
+                    ${hasReceipt ? `<div><i class="fa-solid fa-receipt" style="color: var(--accent-gold);"></i> Resit pembayaran dilampirkan</div>` : ''}
                 </div>
             </div>
             <button class="btn btn-gold btn-full" onclick="closeModalAndGo('my-bookings')">View My Bookings</button>
@@ -1333,6 +1455,9 @@ function closeModalAndGo(view) {
     switchView(view);
 }
 
+// ============================================================
+// ============  MY BOOKINGS  =================================
+// ============================================================
 function renderMyBookingsView() {
     if (!appState.currentUser) {
         return `<div class="card" style="text-align: center; padding: 40px 20px;">
@@ -1366,9 +1491,11 @@ function renderMyBookingsView() {
                     <div><i class="fa-solid fa-location-dot"></i> <strong>Pickup:</strong> ${b.pickupLocation}</div>
                     <div><i class="fa-solid fa-money-bill"></i> <strong>Total:</strong> RM ${b.totalPrice} (${b.paymentMethod})</div>
                     ${b.confirmation ? `<div style="color: var(--accent-gold); font-size: 0.75rem; margin-top: 4px;"><i class="fa-solid fa-file-signature"></i> Pengesahan penyewa direkodkan</div>` : ''}
+                    ${b.paymentReceipt ? `<div style="color: var(--status-success); font-size: 0.75rem; margin-top: 2px;"><i class="fa-solid fa-receipt"></i> Resit pembayaran dilampirkan</div>` : ''}
                 </div>
-                <div style="display: flex; gap: 10px;">
-                    <button class="btn btn-outline btn-sm" style="flex: 1;" onclick="showBookingDetailModal('${b.id}')">Full Summary</button>
+                <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                    <button class="btn btn-outline btn-sm" style="flex: 1; min-width: 120px;" onclick="showBookingDetailModal('${b.id}')">Full Summary</button>
+                    ${b.paymentReceipt ? `<button class="btn btn-outline btn-sm" onclick="showStoredReceiptLightbox('${b.id}')"><i class="fa-solid fa-receipt"></i> Resit</button>` : ''}
                     ${b.status === 'Completed' ? `<button class="btn btn-gold btn-sm" onclick="openSubmitReviewModal()">Write Review</button>` : ''}
                 </div>
             </div>
@@ -1404,6 +1531,23 @@ function showBookingDetailModal(bookingId) {
             <div><strong>Payment Status:</strong> ${b.paymentStatus}</div>
             <div><strong>Booking Status:</strong> ${b.status}</div>
         </div>
+
+        ${b.paymentReceipt ? `
+            <div style="margin-top: 20px; padding-top: 16px; border-top: 2px dashed var(--border-color);">
+                <h4 style="font-size: 0.95rem; font-weight: 800; color: var(--accent-gold); margin-bottom: 12px;"><i class="fa-solid fa-receipt"></i> RESIT PEMBAYARAN</h4>
+                <div class="receipt-preview-card">
+                    <img src="${b.paymentReceipt}" alt="Resit">
+                    <div class="receipt-verified-badge">
+                        <i class="fa-solid fa-circle-check" style="color: #4ADE80;"></i>
+                        Pembayaran disahkan oleh penyewa
+                    </div>
+                </div>
+                ${b.paymentConfirmedAt ? `<div style="font-size: 0.72rem; color: var(--text-muted); margin-top: 6px;">Disahkan pada: ${new Date(b.paymentConfirmedAt).toLocaleString('ms-MY')}</div>` : ''}
+                <button class="btn btn-outline btn-sm btn-full" style="margin-top: 10px;" onclick="showStoredReceiptLightbox('${b.id}')">
+                    <i class="fa-solid fa-expand"></i> Lihat Resit Penuh
+                </button>
+            </div>
+        ` : ''}
 
         ${c ? `
             <div style="margin-top: 20px; padding-top: 16px; border-top: 2px dashed var(--border-color);">
@@ -1573,6 +1717,7 @@ function handleLoginSubmit(e) {
     if (user) {
         appState.currentUser = user;
         localStorage.setItem("clickie_session_user", JSON.stringify(user));
+        localStorage.removeItem("clickie_logged_out");
         renderHeaderAuth();
         showToast(`Selamat kembali, ${user.name}!`);
         if (user.role === "admin") switchView("admin", "dashboard");
@@ -1592,6 +1737,7 @@ function handleRegisterSubmit(e) {
     dbSet("users", users);
     appState.currentUser = newUser;
     localStorage.setItem("clickie_session_user", JSON.stringify(newUser));
+    localStorage.removeItem("clickie_logged_out");
     renderHeaderAuth();
     showToast("Akaun berjaya dicipta!");
     switchView("home");
@@ -1600,7 +1746,6 @@ function handleRegisterSubmit(e) {
 function logoutUser() {
     appState.currentUser = null;
     localStorage.removeItem("clickie_session_user");
-    // Set flag supaya auto-login demo tidak berlaku sampai user login sendiri
     localStorage.setItem("clickie_logged_out", "1");
     closeModal();
     renderHeaderAuth();
@@ -1885,6 +2030,7 @@ function renderAdminBookingManagement() {
                     const isUpcoming = b.startDate >= today && b.status !== 'Cancelled' && b.status !== 'Completed';
                     const daysUntil = Math.ceil((new Date(b.startDate + 'T00:00:00') - new Date(today + 'T00:00:00')) / (1000*60*60*24));
                     const hasConfirm = !!b.confirmation;
+                    const hasReceipt = !!b.paymentReceipt;
                     return `
                     <div class="card" style="${isUpcoming ? 'border-left: 4px solid var(--accent-gold);' : ''}">
                         <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px;">
@@ -1893,6 +2039,7 @@ function renderAdminBookingManagement() {
                                     <strong>${b.id}</strong>
                                     <span class="status-pill status-${b.status.toLowerCase().replace(/\s/g,'')}">${b.status}</span>
                                     ${hasConfirm ? `<span style="padding:2px 8px; border-radius:12px; background:#D1FAE5; color:#065F46; font-size:0.68rem; font-weight:800;"><i class="fa-solid fa-file-signature"></i> DISAHKAN</span>` : ''}
+                                    ${hasReceipt ? `<span style="padding:2px 8px; border-radius:12px; background:#DBEAFE; color:#1E40AF; font-size:0.68rem; font-weight:800;"><i class="fa-solid fa-receipt"></i> RESIT</span>` : ''}
                                     ${isUpcoming ? `<span style="padding:2px 8px; border-radius:12px; background:var(--accent-gold-light); color:var(--accent-gold); font-size:0.68rem; font-weight:800;">
                                         ${daysUntil === 0 ? 'HARI INI' : daysUntil === 1 ? 'ESOK' : 'DALAM ' + daysUntil + ' HARI'}
                                     </span>` : ''}
@@ -1911,6 +2058,7 @@ function renderAdminBookingManagement() {
 
                         <div style="display: flex; gap: 8px; flex-wrap: wrap; border-top: 1px solid var(--border-light); padding-top: 10px;">
                             <button class="btn btn-outline btn-sm" onclick="showBookingDetailModal('${b.id}')"><i class="fa-solid fa-eye"></i> Detail</button>
+                            ${hasReceipt ? `<button class="btn btn-outline btn-sm" onclick="showStoredReceiptLightbox('${b.id}')"><i class="fa-solid fa-receipt"></i> Resit</button>` : ''}
                             <button class="btn btn-outline btn-sm" onclick="updateBookingStatus('${b.id}', 'Confirmed')">Confirm</button>
                             <button class="btn btn-outline btn-sm" onclick="updateBookingStatus('${b.id}', 'Ready for Pickup')">Ready Pickup</button>
                             <button class="btn btn-gold btn-sm" onclick="updateBookingStatus('${b.id}', 'Completed')">Complete</button>
